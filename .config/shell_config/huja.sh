@@ -5,5 +5,5 @@
 
 
 if a=$(find ~ -empty | wc -l) ; then
-   echo "$a empty files found. [*] "
+   echo "$a empty files and directories found. [*] "
 fi
