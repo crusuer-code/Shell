@@ -2,8 +2,9 @@
 
 
 #\\- Hash identifier, supports only: -//#
-#MD5, SHA1, SHA224, SHA256, SHA384, SHA512.
-
+#MD5, SHA1, SHA224, SHA256, SHA384, SHA512,
+#CRC32, NTLM, RipeMD-160, SHA3-256, Whirlpool,
+#bcrypt.
 
 hash="$1"
 [ -z "$1" ] && exit 1
