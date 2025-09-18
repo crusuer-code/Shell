@@ -24,3 +24,4 @@ if [[ "$hash" =~  ^[0-9a-fA-F]+$ ]]; then
    [ $length -gt 128 ]  && echo "[*] Unknown hash type.."
 else
      echo "[!] error: not a valid hexadecimal string"
+fi
